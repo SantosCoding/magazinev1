@@ -5,9 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      div {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+      }
+      .satu {
+        background-color: blue;
+        z-index: 3;
+      }
+      .dua {
+        background-color: rgb(0, 255, 30);
+        top: 100px;
+        left: 100px;
+      }
+      .tiga {
+        background-color: rgb(255, 200, 0);
+        top: 200px;
+        left: 200px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hallo world</h1>
-    <h2>Tambah H2</h2>
+    <div class="satu"></div>
+    <div class="dua"></div>
+    <div class="tiga"></div>
   </body>
 </html>
